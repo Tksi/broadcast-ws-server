@@ -2,7 +2,7 @@
   "name": "broadcast-ws-server",
   "version": "0.0.1",
   "bin": {
-    "broadcast-ws-server": "./dist/index.js"
+    "broadcast-ws-server": "./dist/index.mjs"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
