@@ -24,7 +24,7 @@
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "type:check": "tsc --noEmit",
-    "lint:check": "eslint . --ext .ts --cache --cache-location node_modules/.cache/.eslintcache --ignore-path .gitignore",
+    "lint:check": "eslint . --ext .ts --cache --cache-location node_modules/.cache/.eslintcache",
     "format:check": "prettier . --cache --check",
     "fix": "npm run lint:check -- --fix; prettier . --cache --write --log-level warn; npm run type:check",
     "unused": "ts-unused-exports tsconfig.json --ignoreFiles=.*config",
