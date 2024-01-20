@@ -1,5 +1,6 @@
 {
   "name": "broadcast-ws-server",
+  "type": "module",
   "version": "0.0.1",
   "bin": {
     "broadcast-ws-server": "./dist/index.js"
@@ -36,15 +37,5 @@
   },
   "dependencies": {
     "ws": "^8.16.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Tksi/broadcast-ws-server.git"
-  },
-  "author": "Tksi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Tksi/broadcast-ws-server/issues"
-  },
-  "homepage": "https://github.com/Tksi/broadcast-ws-server#readme"
+  }
 }

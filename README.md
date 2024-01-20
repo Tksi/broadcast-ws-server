@@ -22,8 +22,7 @@ sequenceDiagram
 ## Usage
 
 ```bash
-npm i
-npm run start
+npx tksi/broadcast-ws-server
 ```
 
 set `PORT` environment variable to change port number (default is 4567).
