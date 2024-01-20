@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import http from 'node:http';
 import { WebSocketServer } from 'ws';
 import type { WebSocket } from 'ws';
