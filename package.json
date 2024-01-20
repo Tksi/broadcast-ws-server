@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "version": "0.0.1",
+  "bin": {
+    "broadcast-ws-server": "./dist/index.js"
+  },
   "devDependencies": {
     "@types/node": "^20.11.5",
     "@types/ws": "^8.5.10",
