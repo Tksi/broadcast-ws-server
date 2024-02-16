@@ -21,8 +21,8 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.mts",
+    "dev": "tsx watch src/index.mts",
     "type:check": "tsc --noEmit",
     "lint:check": "eslint . --ext .mts --cache --cache-location node_modules/.cache/.eslintcache",
     "format:check": "prettier . --cache --check",
