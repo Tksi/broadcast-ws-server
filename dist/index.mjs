@@ -68,6 +68,9 @@ wss.on('connection', function connection(ws, req) {
     else {
         roomMap.set(roomId, new Set([ws]));
     }
+    ws.on('message', () => {
+        ws.send('pong');
+    });
     ws.on('close', () => {
         roomMap.get(roomId)?.delete(ws);
         if (roomMap.get(roomId)?.size === 0) {
